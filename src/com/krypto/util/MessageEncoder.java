@@ -80,7 +80,6 @@ public class MessageEncoder {
 
 	/**
 	 * Retorna o caractere associado ao código informado
-	 * @author jrmmendes
 	 * @param code
 	 * @return c tal que charToCode(c) = code
 	 * @author Romildo Júnior
@@ -149,9 +148,9 @@ public class MessageEncoder {
 
 	/**
 	 * Calcula a codificação da frase
-	 * @author jrmmendes
 	 * @param text
 	 * @return Codificação ou -1 caso seja informado algum caractere não conhecido.
+	 * @author Romildo Júnior
 	 * @throws InvalidCharacterException 
 	 */
 	public BigInteger strToCode(String text) throws InvalidCharacterException {
