@@ -1,2 +1,2 @@
 # krypto
-Implementação básica do criptossistema RSA
+Implementação do criptossistema RSA
